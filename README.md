@@ -4,5 +4,6 @@
 <h4>Reference: <a>https://hackerone.com/reports/964550</a></h4>
 <p>Change: <code>Content-Type:image/png - Content-Type: text/html </code></p>
 
-<h2>If is possible to change src=, use:</h2>
-<p><code></code></p>
+<h2>If is possible to change src=, test with:</h2>
+<p><code>https://angeljuanma.github.io/bug-bounty/evil.svg</code></p>
+<p><code>https://angeljuanma.github.io/bug-bounty/evil.svg</code></p>
