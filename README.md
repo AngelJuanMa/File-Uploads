@@ -6,4 +6,5 @@
 
 <h2>If is possible to change src=, test with:</h2>
 <p><code>https://angeljuanma.github.io/bug-bounty/evil.svg</code></p>
-<p><code>https://angeljuanma.github.io/bug-bounty/evil.svg</code></p>
+<p><code>https://angeljuanma.github.io/bug-bounty/xss.svg</code></p>
+<p>XSS or HTML Injection: <code>https://angeljuanma.github.io/bug-bounty/xss.html</code></p>
