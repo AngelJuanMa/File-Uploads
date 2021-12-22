@@ -48,7 +48,7 @@ def handleResponse(req, interesting):
 ## Test metadata
 Upload xss_comment_exif_metadata_double_quote.png
 ```http
-Con`tent-Type:image/png - Content-Type: text/html
+Content-Type:image/png - Content-Type: text/html
 ```
 ##### Reference: https://hackerone.com/reports/964550
 
