@@ -46,13 +46,15 @@ def handleResponse(req, interesting):
 ```
 
 ## Test metadata
-xss_comment_exif_metadata_double_quote.png
-Reference: <a>https://hackerone.com/reports/964550
-Change: <code>Content-Type:image/png - Content-Type: text/html
+Upload xss_comment_exif_metadata_double_quote.png
+```http
+Con`tent-Type:image/png - Content-Type: text/html
+```
+##### Reference: https://hackerone.com/reports/964550
 
 ## If is possible to change src=
 Add urls:
-https://angeljuanma.github.io/bug-bounty/evil.svg
-https://angeljuanma.github.io/bug-bounty/xss.svg
-https://angeljuanma.github.io/bug-bounty/xss.html
+* https://angeljuanma.github.io/bug-bounty/evil.svg
+* https://angeljuanma.github.io/bug-bounty/xss.svg
+* https://angeljuanma.github.io/bug-bounty/xss.html
 
