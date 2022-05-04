@@ -65,7 +65,7 @@ The image "" cannot be displayed because it contains errors.
 use:
 
 ```
-curl -s -X GET "https://domain.com/uploads/aJEa412rsdfgF"
+curl -s -X GET "https://domain.com/uploads/aJEa412rsdfgF" | html2text | mdcat
 ```
 
 
