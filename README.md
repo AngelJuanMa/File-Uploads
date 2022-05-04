@@ -58,3 +58,14 @@ Add urls:
 * https://angeljuanma.github.io/bug-bounty/xss.svg
 * https://angeljuanma.github.io/bug-bounty/xss.html
 
+## cannot be displayed
+
+The image "" cannot be displayed because it contains errors.
+
+use:
+
+```
+curl -s -X GET "https://domain.com/uploads/aJEa412rsdfgF"
+```
+
+
